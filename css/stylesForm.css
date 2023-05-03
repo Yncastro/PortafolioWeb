@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ligera;
+    src: url(../tipografia/ligera.ttf);
+}
+@font-face {
+    font-family: gruesa;
+    src: url(../tipografia/gruesa.ttf);
+}
+@font-face {
+    font-family: gruesaCurva;
+    src: url(../tipografia/gruesaCurva.ttf);
+}
+@font-face {
+    font-family: ligeraCurva;
+    src: url(../tipografia/ligeraCurva.ttf);
+}
+
+body{
+    background-color: #cae9ff;
+    font-family: ligera;
+    margin: 0;
+    padding: 0;
+    
+}
+.formulario{
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: ligera;
+    background-color: aliceblue;
+    opacity: .8;
+}
+.letra{
+    align-items: center;
+    top: 50px;
+    margin-top: 20px;
+    font-family: gruesa;
+}
+.letra1{
+    align-items: center;
+    top: 50px;
+    margin-top: 20px;
+    font-family: ligera;
+}
+p{
+    font-size: 25px;
+}
+
+.btn1{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding-top: 15px; ;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right:40px;
+    background-color:#1b4965;
+    border-width: 3px;
+    border-style: solid #ffc8dd;
+    border-radius: 40px;
+    position: relative;
+    margin-left: 40%;
+    font-family: ligera;
+    margin-top: 25px;
+}
+
+.navbar{
+    margin-top: 36px;
+    font-family: gruesa;
+    font-size: 1.5rem;
+}
+section img {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:-5;
+}
+
